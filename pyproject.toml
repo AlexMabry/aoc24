@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "aoc24"
+version = "12.25.24"
+description = "Advent of Code 2024"
+authors = ["Alex Mabry"]
+readme = "README.md"
+packages = [
+    { include = "aoc24" }
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jinja2 = "^3.1.4"
+advent-of-code-data = "^2.0.4"
+browser-cookie3 = "^0.19.1"
+black = "^24.10.0"
+sortedcontainers = "^2.4.0"
+pandas = "^2.2.3"
+matplotlib = "^3.9.3"
+scipy = "^1.14.1"
+networkx = "^3.4.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+generate = "aoc23.main:generate"
+test = "aoc23.main:test"
+solve = "aoc23.main:solve"
+
