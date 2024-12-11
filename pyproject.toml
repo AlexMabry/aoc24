@@ -29,7 +29,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-generate = "aoc23.main:generate"
-test = "aoc23.main:test"
-solve = "aoc23.main:solve"
+generate = "aoc24.main:generate"
+test = "aoc24.main:test"
+solve = "aoc24.main:solve"
 
